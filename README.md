@@ -3,8 +3,8 @@ Code Semantic Enrichment for Deep Code Search
 
 ## Dependency
 > Tested in Ubuntu 16.04
-* Python 2.7-3.6
-* Keras 2.1.3 or newer
+* Python 3.6
+* Keras 2.1.3
 * Tensorflow-gpu 1.7.0
 * lucene 7.7.1
 
