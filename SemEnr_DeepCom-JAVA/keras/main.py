@@ -179,7 +179,7 @@ class CodeSearcher:
         val_loss = {'loss': 1., 'epoch': 0}
         BestMRR=0
         BestEpoch=0
-        f1=open('/data/userName/SemEnr_DeepCom-JAVA/keras/results/training_results.txt','a',encoding='utf-8',errors='ignore')
+        f1=open('./results/training_results.txt','a',encoding='utf-8',errors='ignore')
         for i in range(self.train_params['reload']+1, nb_epoch):
             print('Epoch %d :: \n' % i, end='')            
             logger.debug('loading data chunk..')
